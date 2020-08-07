@@ -17,6 +17,16 @@
   
 A Gui window will open
 
+## Screenshots of project :-
+
+* **Gui window when the code is run**
+
+<img src="images/cry.PNG">
+
+* **Gui window after clicking view report button**
+
+<img src="images/cry%201.PNG">
+
 
 ## How does the project Work :-
 
