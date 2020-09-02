@@ -67,15 +67,14 @@ It has methods like :
   and prints those whose publickey matches the user.
 
 **Gui**  
-This class is responsible for the gui.It provides an interface to perform following functions:-
+This class is responsible for the gui. It provides an interface to perform following functions:-
 1. **Send reports** : it has 2 drop downs to select sender and receiver and "submit" button to send the report.The report can be typed into the given text area.
 2. **Create new user** : a new user can be created by typing in his name in the given textfield.Click "create" button to create the new user.
 3. **View report** : all the sent and received reports of a user can be viewed by selecting the user from dropdown and clicking the "view report" button.  
    The reports are also stored into a text file.The text file is created when we click "view report" button.
-4. **Create block** : a new block is added to the blockchain after 3 transactions(reports) are made. But a new block can be added with less than 3 report by  
+4. **Create block** : a new block is added to the blockchain after 3 transactions(reports) are made. But a new block can be added with less than 3 reports by  
    clicking the "create block" button.
-Gui window when the code is run.
-Gui window after clicking view report button
+
 
 **Data**  
 Data class writes the whole blockchain into a json file.So that the blockchain can referred for future use.
