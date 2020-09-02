@@ -2,7 +2,7 @@
 import java.security.*;
 import java.util.Base64;
 import com.google.gson.GsonBuilder;
-// mostly copied from net as i didn't knew how to use Message ,ecdsa signature etc
+
 public class StringUtil {
 	 
 	public static String applySha256(String input){
